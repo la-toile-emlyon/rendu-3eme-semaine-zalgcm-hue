@@ -38,3 +38,83 @@ header{
     align-items: center;
     gap: 30px;
 }
+
+.container{
+    margin: auto;
+    border: solid black;
+    padding: 2vh;
+}
+
+.promesse2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+img.imgpromess {
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.promesse {
+    text-align: center;
+}
+
+section.Services.proposés {
+    text-align: center;
+}
+
+img.imgarticle {
+    height: 50vh;
+    width: 100%;
+}
+
+article {
+    border: solid black 1px;
+    margin: 3vh;
+    width: 50vh;
+    text-align: center;
+}
+
+a.article1 {
+    background-color: beige;
+    color: black;
+    border: black solid 1px;
+    box-shadow: gray 2px
+}
+a.article2 {
+    background-color: beige;
+    color: black;
+    border: black solid 1px;
+}
+a.article3 {
+    background-color: beige;
+    color: black;
+    border: solid 1px;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article.hajde {
+    background-color: darkseagreen;
+}
+
+article.hajde2 {
+    background-color: darkslateblue;
+}
+
+article.hajde3 {
+    background-color: deeppink;
+}
