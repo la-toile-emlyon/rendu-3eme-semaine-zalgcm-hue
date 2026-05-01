@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+
 .imgheader {
-   height: 10vh;
+    height: 10vh;
 }
+
 .navigation {
     display: flex;
     flex-direction: row;
@@ -14,7 +16,6 @@
     align-items: center;
     padding: 30px;
     background-color: white;
-    
 }
 
 .navlien {
@@ -22,13 +23,16 @@
     color: black;
     padding: 10px;
     font-family: system-ui;
+    font-size: 18px;
 }
-header{
+
+header {
     background-image: url(assets/architecte-interieur/illustration-plan.jpg);
-   background-size: cover;
-   background-position: center;
-   height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
+
 .hero {
     height: 90vh;
     width: 100%;
@@ -39,16 +43,21 @@ header{
     gap: 30px;
 }
 
-.container{
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    border: solid black;
-    padding: 2vh;
+    padding: 20px;
 }
 
 .promesse2 {
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
 
 }
 
@@ -58,18 +67,37 @@ img.imgpromess {
     flex-direction: column;
 }
 
-.liste{
+.liste {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
 }
 
-section.promesse {
+.section-promesse {
     text-align: center;
 }
+.section-promesse a {
+    border: 1px black solid;
+    width: fit-content;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    background-color: wheat;
+    color: darkblue;
+}
+p{
+    font-size: 20px;
+}
 
-section.Services.proposés {
-    text-align: center;
+h2 {
+    font-size: 50px;
+    padding: 10px;
+    color: wheat;
+}
+
+.section-prestation{
+    
 }
 
 img.imgarticle {
@@ -90,11 +118,13 @@ a.article1 {
     border: black solid 1px;
     box-shadow: gray 2px
 }
+
 a.article2 {
     background-color: beige;
     color: black;
     border: black solid 1px;
 }
+
 a.article3 {
     background-color: beige;
     color: black;
@@ -117,4 +147,68 @@ article.hajde2 {
 
 article.hajde3 {
     background-color: deeppink;
+}
+
+h2 {
+    text-align: center;
+}
+
+.projet{
+display:flex;
+align-items:center;
+gap: 30px;
+width: 100%;
+background-color: #E35336;
+}
+.projet1{
+display:flex;
+align-items:center;
+gap: 30px;
+width: 100%;
+background-color: wheat;
+}
+
+.projet1 img{
+width:250px;
+gap: 0px;
+}
+
+.projet img{
+width:250px;
+gap: 0px;
+}
+
+.projet:nth-of-type(even){
+flex-direction:row-reverse;
+}
+
+.temoignages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.temoignages article{
+    background-color: grey;
+    border: #E35336 solid 1px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer div {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    -webkit-text-stroke-width: thin;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 5px;
 }

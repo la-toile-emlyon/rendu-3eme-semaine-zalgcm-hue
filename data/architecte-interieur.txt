@@ -57,7 +57,7 @@ Description Projet: Transformation d’un ancien atelier en boutique lumineuse :
 Temoignages
 
 Prenom: Mathilde
-Type Mission: Rénovation d'appartement
+Type Mission: Rénovation d'appartement         
 Commentaire: Clémence a su repenser notre espace avec beaucoup d’intelligence et de goût. Le résultat est à la fois pratique et sublime.
 
 Prenom: Olivier
